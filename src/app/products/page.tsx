@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Products — The Co-Intelligent Grand Prix",
   description:
-    "Four stages from starting grid to championship. The Map, The License, The Machine, The Race. Ethnobot workforce intelligence runs underneath all of them.",
+    "Four stages from starting grid to championship. Explore, Evaluate, Execute, Elevate. Ethnobot workforce intelligence runs underneath all of them.",
 };
 
 type Product = {
@@ -20,7 +20,8 @@ type Product = {
 type Section = {
   id: string;
   number: string;
-  header: string;
+  label: string;
+  subtitle: string;
   strapline: string;
   body: string;
   products: Product[];
@@ -28,9 +29,10 @@ type Section = {
 
 const sections: Section[] = [
   {
-    id: "the-map",
+    id: "explore",
     number: "01",
-    header: "The Map",
+    label: "EXPLORE",
+    subtitle: "The Map",
     strapline: "Your starting position determines everything.",
     body: "Before strategy, before roadmaps, before investment — you need an honest read of where your organisation actually is. Not where leadership thinks it is. Where it actually is.",
     products: [
@@ -44,18 +46,18 @@ const sections: Section[] = [
         ctaHref: "/contact",
       },
       {
-        id: "capability-navigator",
-        name: "Capability Navigator",
+        id: "gain-sprint",
+        name: "GAIN Sprint",
         tag: "Explore",
         description:
-          "A scored assessment across 7 capability dimensions — Data, Integration, Human-AI Interaction, Governance, Inclusion, Readiness, Business Value. You leave knowing your shape.",
+          "1–2 day facilitated opportunity workshop. Growth, Amplification, Innovation, Next-Level. You leave with a prioritised map of what to act on first.",
       },
       {
         id: "executive-immersion",
         name: "Executive Immersion",
         tag: "Explore",
         description:
-          "A tailored keynote or facilitated session that builds shared language across your leadership team. The case for moving, made for your context.",
+          "Tailored keynote or facilitated session that builds shared language across your leadership team. The case for moving, made for your context.",
       },
       {
         id: "board-briefing",
@@ -64,22 +66,29 @@ const sections: Section[] = [
         description:
           "75 minutes. Pre-survey. AI risk, opportunity, and governance baseline for your board — no hype, no theatre.",
       },
+      {
+        id: "capability-navigator",
+        name: "Capability Navigator",
+        tag: "Explore",
+        description:
+          "Scored assessment across 7 capability dimensions. You leave knowing your shape and what it takes to move.",
+      },
     ],
   },
   {
-    id: "the-license",
+    id: "evaluate",
     number: "02",
-    header: "The License",
-    strapline:
-      "Earn the right to operate at higher autonomy — safely and confidently.",
-    body: "In F1, the Super License is not given. It is earned through demonstrated competence at every level. Organisations are no different. The License stage builds the strategy, evidence base, and governance that let you move fast without creating risk.",
+    label: "EVALUATE",
+    subtitle: "The License",
+    strapline: "Earn the right to operate at higher autonomy — safely and confidently.",
+    body: "Clear use cases. A governance framework you can defend. A strategy the whole leadership team believes in because it is grounded in evidence, not assumptions.",
     products: [
       {
         id: "ethnobot-org-study",
         name: "Ethnobot Org Study",
-        tag: "Standalone product — Ethnobot",
+        tag: "Standalone — Ethnobot",
         description:
-          "AI-mediated workforce intelligence at any scale — 50 to 5,000 participants. The honest read of what your people actually think about AI. Powered by Ethnobot.",
+          "AI-mediated workforce intelligence at any scale — 50 to 5,000 participants. The honest read of what your people actually think about AI.",
         cta: "Visit Ethnobot ↗",
         ctaHref: "https://ethnobot.ai",
         ctaExternal: true,
@@ -92,27 +101,28 @@ const sections: Section[] = [
           "Ethnobot workforce data (50–5,000 participants) combined with a facilitated strategy session. Stop guessing at adoption risk. Start planning from evidence.",
       },
       {
-        id: "license-expedition",
-        name: "License Expedition",
+        id: "strategy-expedition",
+        name: "Strategy Expedition",
         tag: "Evaluate — Strategy",
         description:
-          "Full co-intelligent strategy, architecture, and governance. 8–12 weeks. Board-ready. The roadmap your organisation can actually defend and deliver.",
+          "Full co-intelligent strategy and architecture. 8–12 weeks. Board-ready. The roadmap your organisation can actually defend and deliver.",
       },
       {
-        id: "governance-license",
-        name: "Governance License",
+        id: "helix-navigator",
+        name: "Helix Navigator",
         tag: "Evaluate — Governance",
         description:
-          "The governance framework that enables confident AI action — not compliance theatre. Built around your risk profile, your sector, and your operating constraints.",
+          "Governance and capability framework. Know exactly where you are, what your constraints are, and what is required to move to the next level.",
       },
     ],
   },
   {
-    id: "the-machine",
+    id: "execute",
     number: "03",
-    header: "The Machine",
+    label: "EXECUTE",
+    subtitle: "The Machine",
     strapline: "Turn strategy into working systems that actually run every lap.",
-    body: "Not proof-of-concepts that never ship. Not enterprise programmes that take 18 months to show anything. Helix Lab works in loops: a prototype that proves the use case, a pilot that tests it with real users, a Pod that runs the ongoing learning loop inside your organisation.",
+    body: "Not proof-of-concepts that never ship. Not enterprise programmes that take 18 months to show anything. Helix Lab works in loops: prove it, test it, embed it.",
     products: [
       {
         id: "pilot-forge",
@@ -126,7 +136,7 @@ const sections: Section[] = [
         name: "Execution Lab",
         tag: "Execute — Build",
         description:
-          "Embedded co-intelligent delivery. We build alongside your team — prototype to deployment — with the capability transfer built in from day one.",
+          "Embedded co-intelligent delivery from prototype to deployment, with capability transfer built in from day one.",
       },
       {
         id: "prototype-studio",
@@ -140,17 +150,17 @@ const sections: Section[] = [
         name: "AI Pod",
         tag: "Execute — Ongoing",
         description:
-          "An embedded co-intelligent team running inside your organisation. Structured learning loops, real outcomes, capability transfer. The Mitcham model.",
+          "Embedded co-intelligent team running inside your organisation. Structured learning loops, real outcomes, capability transfer. The Mitcham model.",
       },
     ],
   },
   {
-    id: "the-race",
+    id: "elevate",
     number: "04",
-    header: "The Race",
-    strapline:
-      "The organisations that win are the ones still learning in Lap 21.",
-    body: "The Elevate stage is not a project. It is a championship. The organisations that reach co-intelligent operation describe the same thing: AI is no longer something their team has to think about adopting. It is simply part of how they work.",
+    label: "ELEVATE",
+    subtitle: "The Race",
+    strapline: "The organisations that win are the ones still learning in Lap 21.",
+    body: "The Elevate stage is not a project. It is a championship. Co-intelligence becomes how the organisation operates — permanently.",
     products: [
       {
         id: "sherpa-retainer",
@@ -158,6 +168,13 @@ const sections: Section[] = [
         tag: "Elevate — Ongoing",
         description:
           "Strategic partner embedded in your leadership cadence. Ongoing AI Sherpa and Fractional CAIO. The long game.",
+      },
+      {
+        id: "co-intelligence-lab",
+        name: "Co-Intelligence Lab",
+        tag: "Elevate — Capability",
+        description:
+          "Ongoing capability build, learning loops, maturity tracking. Your organisation's co-intelligent R&D function.",
       },
       {
         id: "velocity-programme",
@@ -171,12 +188,12 @@ const sections: Section[] = [
         name: "Adoption Index",
         tag: "Elevate — Measurement",
         description:
-          "Longitudinal measurement of real co-intelligent transformation. Not tool adoption — capability change. Know whether it is actually working.",
+          "Longitudinal measurement of real co-intelligent transformation. Not tool adoption — genuine capability change.",
       },
       {
         id: "ethnobot-enterprise",
         name: "Ethnobot Enterprise Programme",
-        tag: "Elevate — Standalone product — Ethnobot",
+        tag: "Elevate — Standalone",
         description:
           "Workforce intelligence year-round. Two studies, four quarterly pulses. The measurement layer that makes Elevate sticky.",
         cta: "Visit Ethnobot ↗",
@@ -191,15 +208,14 @@ const sectionBg = ["var(--doc-white)", "#fff", "var(--doc-white)", "#fff"];
 const cardBg = ["#fff", "var(--doc-white)", "#fff", "var(--doc-white)"];
 
 function TagChip({ tag }: { tag: string }) {
-  const isEthnobot = tag.includes("Ethnobot");
-  const isFree = tag === "Free entry";
   const parts = tag.split(" — ");
-
   return (
     <div style={{ display: "flex", gap: "0.35rem", flexWrap: "wrap", marginBottom: "0.75rem" }}>
       {parts.map((part, i) => {
-        const isEthnobotPart = part === "Ethnobot";
-        const isFreePart = isFree && i === 0;
+        const isFree = tag === "Free entry";
+        const isEthnobot = part === "Ethnobot" || part === "Standalone";
+        const isEthnobotTag = tag.includes("Ethnobot") || tag.includes("Standalone");
+        const useOrange = isEthnobotTag && (isEthnobot || i > 0);
         return (
           <span
             key={i}
@@ -210,27 +226,13 @@ function TagChip({ tag }: { tag: string }) {
               textTransform: "uppercase",
               padding: "0.2rem 0.55rem",
               borderRadius: "2px",
-              border: isFreePart
+              border: isFree
                 ? "1px solid #bbf7d0"
-                : isEthnobotPart
-                ? "1px solid #fed7aa"
-                : isEthnobot && i > 0
+                : useOrange
                 ? "1px solid #fed7aa"
                 : "1px solid #c7d7fe",
-              background: isFreePart
-                ? "#f0fdf4"
-                : isEthnobotPart
-                ? "#fff7ed"
-                : isEthnobot && i > 0
-                ? "#fff7ed"
-                : "#eff4ff",
-              color: isFreePart
-                ? "#16a34a"
-                : isEthnobotPart
-                ? "#ea580c"
-                : isEthnobot && i > 0
-                ? "#ea580c"
-                : "var(--helix-blue)",
+              background: isFree ? "#f0fdf4" : useOrange ? "#fff7ed" : "#eff4ff",
+              color: isFree ? "#16a34a" : useOrange ? "#ea580c" : "var(--helix-blue)",
             }}
           >
             {part}
@@ -288,14 +290,14 @@ export default function ProductsPage() {
             }}
           >
             Every organisation starts somewhere. Every organisation can go
-            further. The journey has four stages — each with its own question,
-            its own products, and its own destination. Ethnobot workforce
-            intelligence runs underneath all of them.
+            further. Four stages — each with its own question, its own
+            products, its own destination. Ethnobot workforce intelligence
+            runs underneath all of them.
           </p>
         </div>
       </section>
 
-      {/* Stage nav */}
+      {/* Sticky stage nav */}
       <section
         style={{
           borderBottom: "1px solid var(--border)",
@@ -327,13 +329,13 @@ export default function ProductsPage() {
                 whiteSpace: "nowrap",
               }}
             >
-              {s.number} {s.header}
+              {s.number} {s.label}
             </a>
           ))}
         </div>
       </section>
 
-      {/* Four sections */}
+      {/* Four stage sections */}
       {sections.map((section, si) => (
         <section
           key={section.id}
@@ -360,29 +362,29 @@ export default function ProductsPage() {
                 <p
                   style={{
                     fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
-                    fontSize: "0.7rem",
+                    fontSize: "0.65rem",
                     letterSpacing: "0.12em",
                     textTransform: "uppercase",
                     color: "var(--helix-blue)",
-                    marginBottom: "0.75rem",
+                    marginBottom: "0.4rem",
                   }}
                 >
-                  {section.number}
+                  {section.number} — {section.label}
                 </p>
                 <h2
                   style={{
                     fontSize: "clamp(1.8rem, 3vw, 2.6rem)",
                     fontWeight: 300,
                     color: "var(--legal-gray)",
-                    marginBottom: "0.75rem",
+                    marginBottom: "0.5rem",
                     lineHeight: 1.2,
                   }}
                 >
-                  {section.header}
+                  {section.subtitle}
                 </h2>
                 <p
                   style={{
-                    fontSize: "1rem",
+                    fontSize: "0.95rem",
                     fontWeight: 500,
                     color: "var(--helix-blue)",
                     lineHeight: 1.4,
@@ -407,7 +409,7 @@ export default function ProductsPage() {
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
+                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
                 gap: "1rem",
               }}
             >
@@ -421,7 +423,6 @@ export default function ProductsPage() {
                     background: cardBg[si],
                     display: "flex",
                     flexDirection: "column",
-                    gap: "0",
                   }}
                 >
                   <TagChip tag={product.tag} />
@@ -497,7 +498,6 @@ export default function ProductsPage() {
         style={{
           padding: "2.5rem 1.5rem",
           background: "var(--legal-gray)",
-          borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -510,7 +510,7 @@ export default function ProductsPage() {
               lineHeight: 1.6,
             }}
           >
-            All diagnostics and frameworks run on HelixOS — the API layer that powers the Grand Prix.
+            All diagnostics and frameworks run on HelixOS — the intelligence layer that powers the Grand Prix.
           </p>
           <p
             style={{

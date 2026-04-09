@@ -9,56 +9,64 @@ export const metadata: Metadata = {
 
 const stages = [
   {
+    id: "explore",
     number: "01",
-    name: "The Map",
-    tagline: "Your starting position determines everything.",
+    label: "EXPLORE",
+    subtitle: "The Map",
+    strapline: "Your starting position determines everything.",
     whatItIs:
-      "Most organisations overestimate their AI readiness and underestimate the organisational change required. The Map stage is about getting an honest read — no hype, no theatre.",
+      "Most organisations overestimate their AI readiness and underestimate the organisational change required. The Explore stage is about getting an honest read — no hype, no theatre.",
     whatChanges:
       "You move from assumption to evidence. Leaders develop shared language for co-intelligence. The organisation surfaces what is actually happening with AI — not the story people tell, but the reality on the ground.",
     whatTheJourneyLooksLike:
       "A structured engagement that maps current AI use across the organisation, identifies the highest-leverage opportunities, and creates alignment at the leadership level before any further investment is made.",
-    productsHref: "/products#the-map",
-    productsLabel: "See The Map products →",
+    productsHref: "/products#explore",
+    productsLabel: "See Explore products →",
   },
   {
+    id: "evaluate",
     number: "02",
-    name: "The License",
-    tagline: "Earn the right to operate at higher autonomy — safely and confidently.",
+    label: "EVALUATE",
+    subtitle: "The License",
+    strapline: "Earn the right to operate at higher autonomy — safely and confidently.",
     whatItIs:
       "In F1, the Super License is not given. It is earned through demonstrated competence at every level. Organisations are no different. The License stage builds the strategy, evidence base, and governance that let you move fast without creating risk.",
     whatChanges:
       "Strategy shifts from instinct to evidence. The organisation develops a clear picture of what co-intelligent transformation would actually require — and what it is worth. Decision-makers stop asking 'should we?' and start asking 'how?'",
     whatTheJourneyLooksLike:
       "A facilitated deep-dive that synthesises your context, stress-tests your assumptions, and produces a concrete view of where co-intelligence creates genuine, defensible value for your organisation.",
-    productsHref: "/products#the-license",
-    productsLabel: "See The License products →",
+    productsHref: "/products#evaluate",
+    productsLabel: "See Evaluate products →",
   },
   {
+    id: "execute",
     number: "03",
-    name: "The Machine",
-    tagline: "Turn strategy into working systems that actually run every lap.",
+    label: "EXECUTE",
+    subtitle: "The Machine",
+    strapline: "Turn strategy into working systems that actually run every lap.",
     whatItIs:
-      "This is where co-intelligence becomes real. The Machine stage is about building the practices, rhythms, and capability that embed co-intelligent working into how your organisation actually functions — not a training programme, a sustained capability build.",
+      "This is where co-intelligence becomes real. The Execute stage is about building the practices, rhythms, and capability that embed co-intelligent working into how your organisation actually functions — not a training programme, a sustained capability build.",
     whatChanges:
       "Teams stop using AI as a faster search engine and start thinking with it. Co-intelligent practices become rhythms, not events. The organisation's ability to learn compounds over time rather than stalling after an initial push.",
     whatTheJourneyLooksLike:
       "Prototypes that surface real learning fast. Pilots that test co-intelligent working in live contexts. Embedded support that builds capability in the people doing the work — not just the people sponsoring it.",
-    productsHref: "/products#the-machine",
-    productsLabel: "See The Machine products →",
+    productsHref: "/products#execute",
+    productsLabel: "See Execute products →",
   },
   {
+    id: "elevate",
     number: "04",
-    name: "The Race",
-    tagline: "The organisations that win are the ones still learning in Lap 21.",
+    label: "ELEVATE",
+    subtitle: "The Race",
+    strapline: "The organisations that win are the ones still learning in Lap 21.",
     whatItIs:
-      "The Race stage is what co-intelligence ultimately enables: an organisation that genuinely thinks at a new level. Not because of any single tool or initiative, but because co-intelligent thinking has become the natural operating mode.",
+      "The Elevate stage is what co-intelligence ultimately enables: an organisation that genuinely thinks at a new level. Not because of any single tool or initiative, but because co-intelligent thinking has become the natural operating mode.",
     whatChanges:
       "The learning advantage begins to compound. The gap between your organisation and others — in speed, in insight, in decision quality — grows in your favour. Co-intelligence stops being a project and becomes the way work gets done.",
     whatTheJourneyLooksLike:
       "Ongoing strategic support at the executive level. Labs that continue generating learning. Measurement systems that track co-intelligent capability over time and make the improvement visible to the whole organisation.",
-    productsHref: "/products#the-race",
-    productsLabel: "See The Race products →",
+    productsHref: "/products#elevate",
+    productsLabel: "See Elevate products →",
   },
 ];
 
@@ -136,8 +144,8 @@ export default function JourneyPage() {
         >
           {stages.map((stage) => (
             <a
-              key={stage.name}
-              href={`#${stage.name.toLowerCase().replace(/\s+/g, "-")}`}
+              key={stage.id}
+              href={`#${stage.id}`}
               style={{
                 padding: "1rem 1.5rem",
                 color: "var(--text-muted)",
@@ -148,7 +156,7 @@ export default function JourneyPage() {
                 whiteSpace: "nowrap",
               }}
             >
-              {stage.number} {stage.name}
+              {stage.number} {stage.label}
             </a>
           ))}
         </div>
@@ -157,8 +165,8 @@ export default function JourneyPage() {
       {/* Stages */}
       {stages.map((stage, i) => (
         <section
-          key={stage.name}
-          id={stage.name.toLowerCase().replace(/\s+/g, "-")}
+          key={stage.id}
+          id={stage.id}
           style={{
             padding: "6rem 1.5rem",
             background: i % 2 === 0 ? "#fff" : "var(--doc-white)",
@@ -179,35 +187,36 @@ export default function JourneyPage() {
                 <p
                   style={{
                     fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
-                    fontSize: "0.7rem",
-                    letterSpacing: "0.1em",
+                    fontSize: "0.65rem",
+                    letterSpacing: "0.12em",
                     textTransform: "uppercase",
                     color: "var(--helix-blue)",
-                    marginBottom: "1rem",
+                    marginBottom: "0.4rem",
                   }}
                 >
-                  Stage {stage.number}
+                  {stage.number} — {stage.label}
                 </p>
                 <h2
                   style={{
-                    fontSize: "clamp(2rem, 3.5vw, 3rem)",
+                    fontSize: "clamp(1.8rem, 3vw, 2.6rem)",
                     fontWeight: 300,
-                    marginBottom: "1rem",
+                    marginBottom: "0.5rem",
                     color: "var(--legal-gray)",
+                    lineHeight: 1.2,
                   }}
                 >
-                  {stage.name}
+                  {stage.subtitle}
                 </h2>
                 <p
                   style={{
-                    fontSize: "1.05rem",
+                    fontSize: "0.95rem",
                     fontWeight: 500,
                     color: "var(--helix-blue)",
                     marginBottom: "2.5rem",
                     lineHeight: 1.4,
                   }}
                 >
-                  {stage.tagline}
+                  {stage.strapline}
                 </p>
                 <Link
                   href={stage.productsHref}
