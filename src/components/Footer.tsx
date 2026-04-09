@@ -133,7 +133,7 @@ export default function Footer() {
           </p>
           <nav style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             {[
-              { href: "/book", label: "The Book" },
+              { href: "/books", label: "Books" },
               { href: "/contact", label: "Work With Me" },
               {
                 href: "https://thehelixloop.com",

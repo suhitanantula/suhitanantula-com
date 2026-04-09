@@ -12,58 +12,53 @@ const stages = [
     number: "01",
     name: "Explore",
     tagline: "Understand where you actually are.",
-    description:
-      "Most organisations overestimate their AI readiness and underestimate the organisational change required. The Explore stage is about getting an honest read — no hype, no theatre. We surface what's actually happening: how your people are (and aren't) working with AI, where the real blockers are, and what your organisation's genuine starting point is.",
-    outcomes: [
-      "Honest assessment of current AI use and capability",
-      "Identification of highest-leverage co-intelligence opportunities",
-      "Shared language across leadership for the journey ahead",
-    ],
-    product: "AI Opportunity Scan",
-    productHref: "/products#ai-opportunity-scan",
+    whatItIs:
+      "Most organisations overestimate their AI readiness and underestimate the organisational change required. The Explore stage is about getting an honest read — no hype, no theatre.",
+    whatChanges:
+      "You move from assumption to evidence. Leaders develop shared language for co-intelligence. The organisation surfaces what is actually happening with AI — not the story people tell, but the reality on the ground.",
+    whatTheJourneyLooksLike:
+      "A structured engagement that maps current AI use across the organisation, identifies the highest-leverage opportunities, and creates alignment at the leadership level before any further investment is made.",
+    productsHref: "/products#explore",
+    productsLabel: "See Explore products →",
   },
   {
     number: "02",
     name: "Evaluate",
     tagline: "Build the strategic case on evidence.",
-    description:
-      "Once you know where you are, you need to understand which moves will create the most leverage. The Evaluate stage is about rigorous sense-making: understanding your organisation's specific context, the options available, and what a co-intelligent transformation would actually require. We help you make better decisions, not just faster ones.",
-    outcomes: [
-      "Strategic clarity on where co-intelligence creates genuine value",
-      "Evidence-based prioritisation of transformation initiatives",
-      "Leadership alignment on the path forward",
-    ],
-    product: "Sensemaking Studio",
-    productHref: "/products#sensemaking-studio",
+    whatItIs:
+      "Once you know where you are, you need to understand which moves will create the most leverage. The Evaluate stage is rigorous sense-making: not generating more options, but making better decisions.",
+    whatChanges:
+      "Strategy shifts from instinct to evidence. The organisation develops a clear picture of what co-intelligent transformation would actually require — and what it is worth. Decision-makers stop asking 'should we?' and start asking 'how?'",
+    whatTheJourneyLooksLike:
+      "A facilitated deep-dive that synthesises your context, stress-tests your assumptions, and produces a concrete view of where co-intelligence creates genuine, defensible value for your organisation.",
+    productsHref: "/products#evaluate",
+    productsLabel: "See Evaluate products →",
   },
   {
     number: "03",
     name: "Execute",
     tagline: "Build capability through rapid learning loops.",
-    description:
-      "This is where co-intelligence becomes real. The Execute stage is about building the practices, rhythms, and capability that embed co-intelligent working into how your organisation actually functions day-to-day. Not a one-off training programme — a sustained capability build that creates lasting change.",
-    outcomes: [
-      "Co-intelligent operating rhythms embedded in daily work",
-      "Teams that can think clearly with AI, not just use AI tools",
-      "Organisational capability that compounds over time",
-    ],
-    product: "Helix Navigator",
-    productHref: "/products#helix-navigator",
+    whatItIs:
+      "This is where co-intelligence becomes real. The Execute stage is about building the practices, rhythms, and capability that embed co-intelligent working into how your organisation actually functions — not a training programme, a sustained capability build.",
+    whatChanges:
+      "Teams stop using AI as a faster search engine and start thinking with it. Co-intelligent practices become rhythms, not events. The organisation's ability to learn compounds over time rather than stalling after an initial push.",
+    whatTheJourneyLooksLike:
+      "Prototypes that surface real learning fast. Pilots that test co-intelligent working in live contexts. Embedded support that builds capability in the people doing the work — not just the people sponsoring it.",
+    productsHref: "/products#execute",
+    productsLabel: "See Execute products →",
   },
   {
     number: "04",
     name: "Elevate",
     tagline: "Operate from a permanently higher floor.",
-    description:
-      "The Elevate stage is what co-intelligence ultimately enables: an organisation that genuinely thinks at a new level. Not because of any single tool or initiative, but because co-intelligent thinking has become the natural way your organisation operates. The learning advantage compounds — and the gap between your organisation and others grows.",
-    outcomes: [
-      "Organisational learning advantage that grows over time",
-      "Leadership and teams that think with AI as a default",
-      "The platform for continued co-intelligent evolution",
-    ],
-    product: "Ethnobot",
-    productHref: "https://ethnobot.ai",
-    productExternal: true,
+    whatItIs:
+      "The Elevate stage is what co-intelligence ultimately enables: an organisation that genuinely thinks at a new level. Not because of any single tool or initiative, but because co-intelligent thinking has become the natural operating mode.",
+    whatChanges:
+      "The learning advantage begins to compound. The gap between your organisation and others — in speed, in insight, in decision quality — grows in your favour. Co-intelligence stops being a project and becomes the way work gets done.",
+    whatTheJourneyLooksLike:
+      "Ongoing strategic support at the executive level. Labs that continue generating learning. Measurement systems that track co-intelligent capability over time and make the improvement visible to the whole organisation.",
+    productsHref: "/products#elevate",
+    productsLabel: "See Elevate products →",
   },
 ];
 
@@ -101,9 +96,9 @@ export default function JourneyPage() {
               marginBottom: "1.5rem",
             }}
           >
-            The journey to
+            The journey towards a
             <br />
-            co-intelligence
+            co-intelligent organisation.
           </h1>
           <p
             style={{
@@ -183,8 +178,7 @@ export default function JourneyPage() {
               <div>
                 <p
                   style={{
-                    fontFamily:
-                      "var(--font-mono), IBM Plex Mono, monospace",
+                    fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
                     fontSize: "0.7rem",
                     letterSpacing: "0.1em",
                     textTransform: "uppercase",
@@ -209,109 +203,99 @@ export default function JourneyPage() {
                     fontSize: "1.05rem",
                     fontWeight: 500,
                     color: "var(--helix-blue)",
-                    marginBottom: "2rem",
+                    marginBottom: "2.5rem",
                     lineHeight: 1.4,
                   }}
                 >
                   {stage.tagline}
                 </p>
-                <div
+                <Link
+                  href={stage.productsHref}
                   style={{
-                    border: "1px solid var(--helix-blue)",
-                    borderLeft: "3px solid var(--helix-blue)",
-                    padding: "1rem 1.25rem",
-                    background: "var(--helix-blue-light)",
+                    display: "inline-block",
+                    color: "var(--helix-blue)",
+                    textDecoration: "none",
+                    fontSize: "0.875rem",
+                    fontWeight: 500,
+                    borderBottom: "1px solid var(--helix-blue)",
+                    paddingBottom: "2px",
                   }}
                 >
-                  <p
-                    style={{
-                      fontFamily:
-                        "var(--font-mono), IBM Plex Mono, monospace",
-                      fontSize: "0.65rem",
-                      letterSpacing: "0.1em",
-                      textTransform: "uppercase",
-                      color: "var(--helix-blue)",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    Primary Product
-                  </p>
-                  <Link
-                    href={stage.productHref}
-                    target={stage.productExternal ? "_blank" : undefined}
-                    rel={
-                      stage.productExternal ? "noopener noreferrer" : undefined
-                    }
-                    style={{
-                      color: "var(--helix-blue)",
-                      textDecoration: "none",
-                      fontSize: "0.9rem",
-                      fontWeight: 500,
-                    }}
-                  >
-                    {stage.product}
-                    {stage.productExternal ? " ↗" : " →"}
-                  </Link>
-                </div>
+                  {stage.productsLabel}
+                </Link>
               </div>
 
               <div>
-                <p
-                  style={{
-                    fontSize: "1.05rem",
-                    color: "var(--text-muted)",
-                    lineHeight: 1.8,
-                    marginBottom: "2.5rem",
-                  }}
-                >
-                  {stage.description}
-                </p>
-
-                <div>
+                <div style={{ marginBottom: "2rem" }}>
                   <p
                     style={{
-                      fontFamily:
-                        "var(--font-mono), IBM Plex Mono, monospace",
+                      fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
                       fontSize: "0.65rem",
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
                       color: "var(--text-light)",
-                      marginBottom: "1rem",
+                      marginBottom: "0.75rem",
                     }}
                   >
-                    Outcomes
+                    What it is
                   </p>
-                  {stage.outcomes.map((outcome) => (
-                    <div
-                      key={outcome}
-                      style={{
-                        display: "flex",
-                        gap: "0.75rem",
-                        marginBottom: "0.75rem",
-                        alignItems: "start",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "var(--helix-blue)",
-                          fontSize: "1rem",
-                          lineHeight: 1.5,
-                          flexShrink: 0,
-                        }}
-                      >
-                        ✓
-                      </span>
-                      <p
-                        style={{
-                          color: "var(--text-muted)",
-                          fontSize: "0.9rem",
-                          lineHeight: 1.65,
-                        }}
-                      >
-                        {outcome}
-                      </p>
-                    </div>
-                  ))}
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "var(--text-muted)",
+                      lineHeight: 1.8,
+                    }}
+                  >
+                    {stage.whatItIs}
+                  </p>
+                </div>
+
+                <div style={{ marginBottom: "2rem" }}>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
+                      fontSize: "0.65rem",
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "var(--text-light)",
+                      marginBottom: "0.75rem",
+                    }}
+                  >
+                    What changes
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "var(--text-muted)",
+                      lineHeight: 1.8,
+                    }}
+                  >
+                    {stage.whatChanges}
+                  </p>
+                </div>
+
+                <div>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-mono), IBM Plex Mono, monospace",
+                      fontSize: "0.65rem",
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "var(--text-light)",
+                      marginBottom: "0.75rem",
+                    }}
+                  >
+                    What the journey looks like
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "var(--text-muted)",
+                      lineHeight: 1.8,
+                    }}
+                  >
+                    {stage.whatTheJourneyLooksLike}
+                  </p>
                 </div>
               </div>
             </div>

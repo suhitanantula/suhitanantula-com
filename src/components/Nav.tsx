@@ -8,7 +8,7 @@ const links = [
   { href: "/journey", label: "The Journey" },
   { href: "/products", label: "Products" },
   { href: "/case-studies", label: "Case Studies" },
-  { href: "/co-intelligent-org", label: "Book" },
+  { href: "/books", label: "Books" },
   { href: "/contact", label: "Contact" },
 ];
 
