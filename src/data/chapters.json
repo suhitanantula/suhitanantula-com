@@ -1,0 +1,191 @@
+[
+  {
+    "lapNumber": 1,
+    "title": "The F1 Revolution",
+    "publishDate": "2026-04-19T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-f1-revolution",
+    "excerpt": "Lap 49 of the 2021 Russian Grand Prix. Lando Norris is four laps away from his first-ever Formula 1 victory. On the pit wall, the team's models digest 1.1 million data points per second. The machine knows the track will become un-drivable in ninety seconds. But inside the cockpit, the human sensor network disagrees.",
+    "content": "## The One-Second War\n\nLap 49 of the 2021 Russian Grand Prix. Lando Norris is four laps away from his first-ever Formula 1 victory, his McLaren dancing on the edge of adhesion as he holds off the seven-time world champion, Lewis Hamilton.\n\nBut high above the Sochi Autodrome, a weather front is collapsing.\n\nOn the pit wall, the team's probabilistic models digest **1.1 million data points per second** — Doppler radar vectors, tire degradation curves, and air density shifts — and resolve into a single, blinking command: *Box.*\n\nThe machine knows, with near-mathematical certainty, that the track will become un-drivable in ninety seconds.\n\nBut inside the cockpit, the human sensor network disagrees. Norris feels the grip in his fingertips; he sees a dry racing line. When his engineer urges him to pit, the adrenaline-fueled pilot overrides the digital forecast with a scream of defiance: \"NO!\"\n\nOne second behind him, Lewis Hamilton faces the exact same choice. He, too, feels the grip holding. He, too, wants to brave the elements. But when the Mercedes algorithm insists, Hamilton suppresses his instinct, trusts the invisible data, and dives into the pits.\n\nFor sixty agonizing seconds, the two drivers exist in parallel realities — one betting on the biological \"now,\" the other on the digital \"next.\"\n\nThen, the heavens open.\n\nNorris is helpless, his car turning into a toboggan on the ice-like surface as he slides off the track, watching his maiden win evaporate in the spray. Hamilton, on the correct tyres, cruises past to take the victory.\n\n**In that tragic slide, the era of the solo hero ended. The era of the Co-Intelligent Organisation began.**\n\nHamilton had spent a decade building a relationship not just with his race engineer, but with the machine intelligence that backed him. He knew that when the \"Box\" command came with that level of urgency, the algorithm was seeing something his eyes couldn't. He had sufficient **Trust Capital** to override his own biological senses.\n\nNorris, brilliant but younger, driving for a team still finding its championship form, trusted his hands more than his dashboard. He had the intelligence (the data said pit), but he lacked the trust to act on it.\n\n**This is the exact situation facing every CEO, every team leader, and every knowledge worker today.**\n\n---\n\n## The Day the Airflow Changed\n\nIn February 2022, something strange happened at the first day of pre-season testing in Bahrain.\n\nCars started bouncing.\n\nNot the normal bumps of a racing car over kerbs. Violent, rhythmic oscillations that shook drivers in their seats at 200 miles per hour. Engineers watched in confusion as their multi-million dollar machines behaved like pogo sticks.\n\nThey called it **\"porpoising.\"**\n\nFormula 1 had just introduced the most significant regulation changes in four decades. After 40 years of banning ground effect aerodynamics, the sport brought it back.\n\nMercedes, who had dominated the previous eight seasons with a combined 15 World Championships, suddenly couldn't make their car work.\n\nRed Bull understood something Mercedes didn't: **when the rules change how air flows, you can't just modify your existing design. You have to start from first principles.**\n\nOn the final day of testing, Red Bull appeared with a revised aerodynamic package that almost eliminated porpoising. Other teams were still trying to understand the problem. Red Bull had already solved it.\n\nThat season, Max Verstappen won 15 of 20 races — a new record.\n\n**The physics changed. Red Bull changed their design to match. Mercedes tried to force old design into new physics. The results were predictable.**\n\n*Full manuscript chapter to be populated before April 20 launch.*"
+  },
+  {
+    "lapNumber": 2,
+    "title": "Racing a Different Physics",
+    "publishDate": "2026-04-26T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "racing-a-different-physics",
+    "excerpt": "I didn't start this book wanting to write about cars. I started it wanting to write about a problem I kept seeing in my work with organisations: the gap between knowing AI matters and knowing what to do about it.",
+    "content": "## Racing a Different Physics\n\nI didn't start this book wanting to write about cars.\n\nI started it wanting to write about a problem I kept seeing in my work with organisations: the gap between knowing AI matters and knowing what to do about it.\n\nEvery leader I spoke to understood that artificial intelligence was changing the game. Most of them had invested in it. Many had hired for it. Some had entire transformation programmes built around it.\n\nAnd yet almost none of them felt like they were winning.\n\nNot because of bad strategy. Not because of wrong technology choices. But because they were racing with the wrong physics model.\n\nThey were optimising for a race that had already ended.\n\n---\n\n## What You'll Learn in This Book\n\n**Part 1 — The Map:** You will learn to see your organisation the way an F1 strategist sees the grid.\n\n**Part 2 — The License:** You will see why you cannot \"skip to Verstappen\". The path to co-intelligence is earned, not purchased.\n\n**Part 3 — The Machine:** You will design the machine that can safely race at that speed.\n\n**Part 4 — The Race:** You will understand what it means to run the season, not just the race.\n\n*Full manuscript chapter to be populated before April 27.*"
+  },
+  {
+    "lapNumber": 3,
+    "title": "The Co-Intelligent Vision",
+    "publishDate": "2026-05-03T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-co-intelligent-vision",
+    "excerpt": "A Co-Intelligent Organisation is one where human and artificial intelligence are designed to amplify each other. Not humans OR AI. Humans WITH AI.",
+    "content": "## Not Humans OR AI. Humans WITH AI.\n\nIn the early days of automobiles, we called them \"horseless carriages.\"\n\nThe framing revealed our confusion. We understood the new technology only in terms of what it replaced — not what it enabled. The horseless carriage wasn't a horse that had been removed. It was a fundamentally different relationship between humans and movement.\n\nWe are in exactly the same moment with AI.\n\nMost organisations are building AI strategies that treat AI as a replacement for humans in specific tasks. This is the \"horseless carriage\" error. The question isn't \"which tasks can AI do instead of humans?\" The question is: **\"How do humans and AI think together to do things neither could do alone?\"**\n\n## The Definition\n\nA Co-Intelligent Organisation is one where human and artificial intelligence are designed to amplify each other.\n\nThe most important shift isn't about adding AI. It's about building learning loops.\n\nA traditional workflow is static: input → process → output.\n\nA co-intelligent workflow is dynamic: input → AI-assisted process → human judgment → output → learning → improved next input.\n\nThe loop is the point. The compounding is the advantage.\n\n*Full manuscript chapter to be populated before May 4.*"
+  },
+  {
+    "lapNumber": 4,
+    "title": "The 9Q Grid",
+    "publishDate": "2026-05-10T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-9q-grid",
+    "excerpt": "Here's what took me years to understand. The quality of your AI strategy is determined by the quality of your questions — not your answers. The 9Q Grid is a diagnostic tool for asking the right nine.",
+    "content": "## The Nine Questions\n\nHere's what took me years to understand.\n\nThe quality of your AI strategy is determined by the quality of your questions — not your answers.\n\nEvery organisation I've worked with that has failed to make meaningful progress with AI has failed in the same place: they started with answers. What tools should we buy? Which vendors should we partner with? What use cases should we prioritise?\n\nThe organisations that succeed start with questions. Nine specific questions, arranged in a grid, that reveal where you are and where the leverage is.\n\nThe 9Q Grid is the diagnostic backbone of co-intelligent strategy. It doesn't tell you what to do. It tells you what to see.\n\n*Full manuscript chapter with the complete 9Q Grid to be populated before May 11.*"
+  },
+  {
+    "lapNumber": 5,
+    "title": "Strategic Shapes",
+    "publishDate": "2026-05-17T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "strategic-shapes",
+    "excerpt": "Before you can ask 'Where should we compete?' you need to ask 'How do we compete?' Your strategic shape determines everything else about your co-intelligent journey.",
+    "content": "## Four Shapes, One Grid\n\nThis is the most common starting shape.\n\nEvery organisation I've diagnosed falls into one of four strategic positions. Not because of the industry they're in, or the size of their team, or the amount they've invested in AI. But because of how they think about the relationship between what they know and what they can do.\n\nThe four strategic shapes are:\n\n**The Spear** — One overwhelming advantage, ruthlessly exploited. Think Red Bull 2022-23: total dominance through singular focus.\n\n**The Shield** — Institutional excellence. Systems that work. Processes that compound. Think Mercedes 2014-2021.\n\n**The Pivot** — Mid-race reinvention. Willingness to throw away what isn't working and rebuild. Think McLaren 2024.\n\n**The Network** — Capability through alliance. Small team, big reach. Think Williams 2024.\n\nBefore you build your co-intelligent strategy, you need to know your shape. Because the right AI investments look completely different depending on which shape you are.\n\n*Full manuscript chapter to be populated before May 18.*"
+  },
+  {
+    "lapNumber": 6,
+    "title": "The Business Model Atlas",
+    "publishDate": "2026-05-24T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "the-business-model-atlas",
+    "excerpt": "Imagine a graph. On one axis: how much of your value comes from human expertise. On the other: how much comes from data and scale. Where you sit on that graph tells you more about your AI strategy than any consultant's framework.",
+    "content": "## The Map Before the Territory\n\nImagine a graph.\n\nOn one axis: how much of your value comes from human expertise — judgement, relationships, craft.\n\nOn the other: how much comes from data and scale — volume, speed, pattern recognition.\n\nEvery business model sits somewhere on this map. And where you sit determines not just how AI can help you, but how AI will threaten you, and what it will take to move.\n\nThe Business Model Atlas is the tool for seeing this clearly — before you make any strategic decisions about AI investment.\n\n*Full manuscript chapter to be populated before May 25.*"
+  },
+  {
+    "lapNumber": 7,
+    "title": "The Co-Intelligence Index",
+    "publishDate": "2026-05-31T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-co-intelligence-index",
+    "excerpt": "Every executive has heard of the startup that went from idea to IPO in three years. The difference isn't always talent or funding. It's co-intelligence velocity — the rate at which an organisation learns to think with AI.",
+    "content": "## The Measurement That Matters\n\nEvery executive has heard of the startup that went from idea to IPO in three years. Every AI leader has heard of the project that went from pilot to production in six months.\n\nBut these stories obscure more than they reveal. What actually enabled that speed? What was the underlying capability that made it possible?\n\nThe Co-Intelligence Index is the attempt to answer that question rigorously. It measures not what your AI systems can do, but how well your organisation thinks with them.\n\nFive dimensions. Twenty-five indicators. One honest number.\n\n*Full manuscript chapter to be populated before June 1.*"
+  },
+  {
+    "lapNumber": 8,
+    "title": "The Readiness Gates",
+    "publishDate": "2026-06-07T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-readiness-gates",
+    "excerpt": "Before a driver can sit in a Formula 1 car, they must earn a Super License. You cannot buy a Super License. You cannot skip to Verstappen. You have to earn the right to operate at that speed.",
+    "content": "## The Super License\n\nBefore a driver can sit in a Formula 1 car, they must earn a **Super License**.\n\nThe Super License isn't a test you pass. It's a journey you complete. You must accumulate points across lower formulas. You must demonstrate competence at each level before advancing to the next. You must prove, through years of evidence, that you've earned the right to operate machinery that sophisticated at speeds that dangerous.\n\nThe FIA doesn't care how talented you are. They care what you've proven.\n\nYour organisation faces an equivalent system.\n\nThere are readiness gates — specific capabilities you must demonstrate before the next level of co-intelligent practice is safe to attempt. Not because someone imposed them. Because the physics demands it.\n\nYou cannot skip rungs on this ladder. A team that hasn't built basic data literacy cannot safely operate sophisticated AI systems. An organisation without clear decision rights will amplify its confusion, not eliminate it.\n\nThe Readiness Gates tell you exactly where you are — and what you need to prove before you advance.\n\n*Full manuscript chapter to be populated before June 8.*"
+  },
+  {
+    "lapNumber": 9,
+    "title": "Trust Capital",
+    "publishDate": "2026-06-14T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "trust-capital",
+    "excerpt": "Think of trust like a bank account. Every time your AI system makes a good call and you act on it, you make a deposit. Every time it fails and you acted on it anyway, you make a withdrawal. Lando Norris had a depleted account. Lewis Hamilton's was full.",
+    "content": "## The Account That Determines Everything\n\nThink of trust like a bank account.\n\nEvery time your AI system makes a good call and you act on it, you make a deposit. Every time it makes a bad call and you shielded your team from it, you make a deposit. Every time it fails and you acted on it anyway, you make a withdrawal.\n\nLando Norris at Sochi in 2021 had a depleted account. His team's models said pit. His gut said stay. He chose his gut. The account wasn't full enough to make the withdrawal.\n\nLewis Hamilton had been making deposits for a decade. When Mercedes said box, he could trust the command completely — because the account was full.\n\n**Trust Capital is the invisible asset that determines whether your organisation can actually act on co-intelligent outputs — or will always default to the gut.**\n\n*Full manuscript chapter to be populated before June 15.*"
+  },
+  {
+    "lapNumber": 10,
+    "title": "The Engine",
+    "publishDate": "2026-06-21T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-engine",
+    "excerpt": "Before a single wheel turns at a Grand Prix, McLaren has already run the race 300 million times. But the simulations aren't the engine. The engine is the process that turns simulation into decision.",
+    "content": "## 300 Million Rehearsals\n\nBefore a single wheel turns at a Grand Prix, McLaren has already run the race **300 million times**.\n\nEvery pit stop window. Every tyre degradation curve. Every safety car scenario. Every competitor strategy. The race has been modelled exhaustively before it begins.\n\nAnd yet races are still lost.\n\nBecause the simulations are not the engine. The engine is the organisational system that turns simulations into decisions — reliably, at speed, under pressure.\n\nJames Vowles discovered this when he became Williams' team principal in 2023. Twenty thousand cells. A single Excel spreadsheet. The entire car build process managed through a document that had grown organically over years into something no one fully understood.\n\n**You cannot add AI to a broken process. AI accelerates whatever it touches. Add it to a broken process and you get faster breakdown.**\n\nWilliams' first step wasn't implementing AI. It was throwing away Excel.\n\n*Full manuscript chapter to be populated before June 22.*"
+  },
+  {
+    "lapNumber": 11,
+    "title": "The Crew",
+    "publishDate": "2026-06-28T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-crew",
+    "excerpt": "Qatar, November 2023. Red Bull changes four tyres on Max Verstappen's car in 1.80 seconds. Twenty crew members. No instructions. No confirmations. During those 1.80 seconds, no one spoke.",
+    "content": "## 1.80 Seconds\n\nQatar, November 2023. The floodlights turn the Lusail International Circuit into a white-hot stage. Max Verstappen pulls into the Red Bull pit box at 300 kilometres per hour, then brakes hard into the painted rectangle.\n\nTwenty crew members move.\n\nIn 1.80 seconds — less time than it takes to read this sentence aloud — four tyres are changed.\n\nDuring those 1.80 seconds, **no one spoke.**\n\nNo instructions. No confirmations. No \"ready\" calls or \"go\" signals. The pit crew didn't communicate — they *synchronised*.\n\nEvery movement was choreographed. Every position was rehearsed. Every millisecond was accounted for.\n\nThis is what co-intelligence looks like at speed. Not humans discussing what to do. Humans and machines executing a protocol so refined that language would only slow it down.\n\n**Most organisations run on communication. Co-intelligent organisations run on synchronisation.**\n\n*Full manuscript chapter to be populated before June 29.*"
+  },
+  {
+    "lapNumber": 12,
+    "title": "The Conductor",
+    "publishDate": "2026-07-05T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "the-conductor",
+    "excerpt": "Hannah Schmitz sits tall at the Red Bull pit wall, hands flat on the desk in front of her. She is not the fastest thinker in the room. She is the most calibrated — knowing exactly when to trust the machine and when to override it.",
+    "content": "## The Pit Wall\n\nHannah Schmitz sits tall at the Red Bull pit wall, gazing down pit lane with her hands flat on the desk in front of her.\n\nIn thirty seconds, she will need to make a decision that could determine the race outcome. Her screens show simulation outputs, real-time telemetry, weather data, competitor positions, tyre degradation models.\n\nThe AI has done the computation. It has processed more scenarios than a human could consider in a lifetime. But the AI doesn't decide. **Hannah decides.**\n\nShe is not the fastest thinker in the room. She is not the most technically sophisticated. She is the most *calibrated* — knowing exactly when to trust the machine's outputs and when to override them with what she can see that the machine cannot.\n\nThis is the Conductor role. Every co-intelligent organisation needs one.\n\n*Full manuscript chapter to be populated before July 6.*"
+  },
+  {
+    "lapNumber": 13,
+    "title": "The Container",
+    "publishDate": "2026-07-12T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-container",
+    "excerpt": "February 2022. Barcelona pre-season testing. Mercedes' W13 was a masterpiece on paper. Then it hit the track. When the physics change, you can't just modify your container. You have to redesign it.",
+    "content": "## When Physics Change\n\nFebruary 2022. Barcelona pre-season testing.\n\nMercedes introduced the W13. On paper, it was a masterpiece. James Allison's engineering team had run millions of CFD simulations. Every aerodynamic surface was optimised. The wind tunnel data was excellent. The car should have been dominant.\n\nThen it hit the track. And it bounced.\n\nMercedes spent most of 2022 trying to fix it. The correlation between their simulations and reality — what the industry calls \"correlation drift\" — had reached 0.25 seconds per lap. Catastrophic.\n\nAfter one particularly bad session, Toto Wolff, Mercedes' team principal, asked the question on everyone's mind: *\"Are we morons?\"*\n\nThey weren't morons. They were the most successful team in F1 history. But their container — their organisational structure, their development process, their correlation methodology — was designed for the old physics.\n\n**When the physics change, you can't modify your container. You have to redesign it.**\n\n*Full manuscript chapter to be populated before July 13.*"
+  },
+  {
+    "lapNumber": 14,
+    "title": "The 90-Day Season",
+    "publishDate": "2026-07-19T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-90-day-season",
+    "excerpt": "Here is something most Formula 1 fans don't understand. Verstappen didn't win every race in 2023. He didn't need to. He won the season. Your transformation isn't a project. It's a season.",
+    "content": "## The Season, Not the Race\n\nHere is something most Formula 1 fans don't understand.\n\nVerstappen didn't win every race in 2023. He won 19 of 22. He retired from 3. And he won the championship by the largest margin in the modern era.\n\nHe didn't win every race. **He won the season.**\n\nYour co-intelligent transformation isn't a project with a deadline and a deliverable. It's a season — a structured sequence of 90-day sprints, each one a race, each one feeding into the championship points table.\n\nThe 90-day season framework is the operating rhythm for co-intelligent transformation. It breaks the impossible into the possible: not \"transform the organisation\" but \"run this sprint, capture the learning, update the model, run the next sprint.\"\n\n*Full manuscript chapter with complete 90-day playbook to be populated before July 20.*"
+  },
+  {
+    "lapNumber": 15,
+    "title": "The Strategic Multiverse",
+    "publishDate": "2026-07-26T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-strategic-multiverse",
+    "excerpt": "There is a number worth sitting with before we begin. In 2023, Red Bull ran six billion simulations per race weekend. Six billion versions of the race, computed in advance. The strategic multiverse is how you think at that scale.",
+    "content": "## Six Billion Races\n\nThere is a number worth sitting with before we begin.\n\nIn 2023, Red Bull ran **six billion simulations per race weekend**.\n\nSix billion versions of the race. Every possible safety car. Every weather pattern. Every tyre strategy. Every competitor move. Computed in advance, probability-weighted, presented to Hannah Schmitz as a set of options.\n\nThe strategic multiverse is the mental model that makes this useful rather than overwhelming. It's the ability to hold multiple possible futures simultaneously — and make decisions that are robust across them rather than optimised for just one.\n\nThis is the most advanced form of co-intelligent thinking. And it's available to any organisation willing to build the capability.\n\n*Full manuscript chapter to be populated before July 27.*"
+  },
+  {
+    "lapNumber": 16,
+    "title": "The Chequered Flag",
+    "publishDate": "2026-08-02T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "the-chequered-flag",
+    "excerpt": "The grid is set. Twenty cars. Twenty drivers. Billions of data points streaming. Millions of simulations computed. And yet — in the ten seconds before lights out — the algorithms go quiet. A driver sits alone.",
+    "content": "## The Longest Ten Seconds\n\nThe grid is set. Twenty cars. Twenty drivers. Two hundred engineers on pit walls around the world. Billions of data points streaming. Millions of simulations computed.\n\nAnd yet.\n\nIn the ten seconds between \"formation lap complete\" and \"lights out,\" something extraordinary happens. The algorithms go quiet. The simulations stop running. The data streams pause.\n\nA driver sits alone.\n\nHands on the wheel. Helmet pressed against the headrest. Eyes fixed on the five red lights about to illuminate above the start-finish line. Heart rate elevated. Breathing controlled.\n\nThe AI has done its work. The optimal launch map is loaded. The strategy is computed.\n\nBut the AI cannot feel the grip. Cannot sense the moisture in the air. Cannot read the driver ahead who might hesitate. Cannot account for the chaos that erupts the moment lights go out.\n\nIn the most data-rich sport on earth, the moment of truth is irreducibly human.\n\n**One light. Two lights. Three. Four. Five.**\n\n**Darkness.**\n\n**Go.**\n\n*Full closing chapter to be populated before August 3.*"
+  },
+  {
+    "lapNumber": 17,
+    "title": "Pit Stop: Reader Questions",
+    "publishDate": "2026-08-09T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "pit-stop-reader-questions",
+    "excerpt": "Sixteen laps in, the questions have been gathering. This is the pit stop — where we pause the race to answer what readers have been asking most.",
+    "content": "## The Pit Stop\n\nSixteen laps in. The race is in full swing.\n\nThis lap is different. It's the pit stop — the moment where we pull off the racing line, change the tyres, and address the questions that have been building since Lap 1.\n\n*Content for this lap to be compiled from reader questions following launch.*"
+  },
+  {
+    "lapNumber": 18,
+    "title": "Field Notes: What the Data Doesn't Show",
+    "publishDate": "2026-08-16T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "field-notes-what-the-data-doesnt-show",
+    "excerpt": "Six years of co-intelligent fieldwork across government, education, health and civic organisations. What the frameworks don't capture — and what actually determines whether transformation sticks.",
+    "content": "## What the Frameworks Don't Capture\n\nSix years of co-intelligent fieldwork. Fifty-plus organisations. Government, education, health, civic, commercial.\n\nThe frameworks capture a lot. But they don't capture everything. This lap is the field notes — the patterns I've observed that don't fit neatly into any model but matter enormously in practice.\n\n*Content for this lap to be populated from fieldwork notes before August 17.*"
+  },
+  {
+    "lapNumber": 19,
+    "title": "The Co-Intelligent Leader",
+    "publishDate": "2026-08-23T23:30:00Z",
+    "llvMode": "lines",
+    "slug": "the-co-intelligent-leader",
+    "excerpt": "What does it actually feel like to lead a co-intelligent organisation? Not the frameworks — the lived experience. What changes in how you think, how you decide, how you run a meeting.",
+    "content": "## Leading at a New Level\n\nWhat does it actually feel like to lead a co-intelligent organisation?\n\nNot the frameworks — the lived experience. What changes in how you think, how you decide, how you run a meeting, how you hire, how you measure success.\n\nThis lap is the personal account of what co-intelligent leadership looks like from the inside.\n\n*Content to be populated before August 24.*"
+  },
+  {
+    "lapNumber": 20,
+    "title": "The Next Season",
+    "publishDate": "2026-08-30T23:30:00Z",
+    "llvMode": "loops",
+    "slug": "the-next-season",
+    "excerpt": "The chequered flag isn't the end. Every F1 championship ends with teams immediately beginning work on next year's car. Co-intelligence doesn't have a finish line — it has a starting grid for the next season.",
+    "content": "## The Championship Doesn't End\n\nThe chequered flag isn't the end.\n\nEvery F1 championship ends with teams immediately beginning work on next year's car. The day after the final race, the design studio is already running simulations for regulations that won't take effect for another fourteen months.\n\nCo-intelligence doesn't have a finish line. It has a starting grid for the next season.\n\n*Content to be populated before August 31.*"
+  },
+  {
+    "lapNumber": 21,
+    "title": "Starting Line",
+    "publishDate": "2026-09-06T23:30:00Z",
+    "llvMode": "vibes",
+    "slug": "starting-line",
+    "excerpt": "Twenty-one laps. The race is complete. Now it's yours to run. A personal note from Suhit on what it means to begin — and what the first lap of your own co-intelligent journey looks like.",
+    "content": "## The Starting Line Is Yours\n\nTwenty-one laps. The race is complete.\n\nNow it's yours to run.\n\nThis final lap is a personal note — not from the book, but from the practice. What it means to actually begin the co-intelligent journey, and what the first Monday morning of your transformation looks like in practice.\n\n*Personal note to be written before September 7.*"
+  }
+]
