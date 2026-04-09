@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --helix-blue: #2D5BFF;
+  --helix-blue-dark: #1a3fd4;
+  --helix-blue-light: #e8edff;
+  --legal-gray: #333F48;
+  --doc-white: #F7F9FC;
+  --background: #ffffff;
+  --surface: #F7F9FC;
+  --surface-elevated: #eef1f6;
+  --border: #e2e6ed;
+  --text: #333F48;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --accent: #2D5BFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-roboto), "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-roboto), "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--legal-gray);
+}
+
+.mono {
+  font-family: var(--font-mono), "IBM Plex Mono", monospace;
+}
+
+a {
+  color: var(--helix-blue);
+}
