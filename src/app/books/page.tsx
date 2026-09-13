@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Books",
   description:
     "Three books by Suhit Anantula. One through-line: how organisations and the people in them can think at a new level by working with AI as a genuine partner.",
-};
+  path: "/books",
+});
 
 export default function BooksPage() {
   return (
@@ -57,6 +59,23 @@ export default function BooksPage() {
             them can think at a new level by working with AI as a genuine
             partner.
           </p>
+          <div style={{ marginTop: "2.5rem" }}>
+            <Link
+              href="/co-intelligent-org"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Read the book →
+            </Link>
+          </div>
         </div>
       </section>
 

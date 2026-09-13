@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "About",
   description:
     "Suhit Anantula is a co-intelligent founder and the founder of Helix Lab. He works with organisations to build genuine co-intelligent capability.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
@@ -44,6 +46,23 @@ export default function AboutPage() {
             <br />
             become co-intelligent.
           </h1>
+          <div style={{ marginTop: "2.5rem" }}>
+            <Link
+              href="/contact"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Get In Touch
+            </Link>
+          </div>
         </div>
       </section>
 

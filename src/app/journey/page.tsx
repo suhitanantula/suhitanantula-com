@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "The Journey — Explore · Evaluate · Execute · Elevate",
   description:
     "The Helix Lab methodology: four stages for building genuine co-intelligent capability in your organisation.",
-};
+  path: "/journey",
+});
 
 const stages = [
   {
@@ -120,6 +122,23 @@ export default function JourneyPage() {
             becomes genuinely co-intelligent moves through Explore, Evaluate,
             Execute, and Elevate — in that order.
           </p>
+          <div style={{ marginTop: "2.5rem" }}>
+            <Link
+              href="/contact"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Begin the Conversation
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -140,6 +159,7 @@ export default function JourneyPage() {
             padding: "0 1.5rem",
             display: "flex",
             gap: "0",
+            overflowX: "auto",
           }}
         >
           {stages.map((stage) => (

@@ -1,11 +1,14 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Suhit Anantula — Co-Intelligent Founder",
   description:
     "I help organisations become co-intelligent. Helix Lab — the practice that makes humans and AI think better together.",
-};
+  path: "/",
+  absoluteTitle: true,
+});
 
 const stages = [
   {

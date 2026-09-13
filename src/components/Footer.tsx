@@ -135,6 +135,7 @@ export default function Footer() {
             {[
               { href: "/books", label: "Books" },
               { href: "/contact", label: "Work With Me" },
+              { href: "/privacy", label: "Privacy" },
               {
                 href: "https://thehelixloop.com",
                 label: "The Helix Loop ↗",

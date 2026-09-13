@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Case Studies",
   description:
     "How organisations like City of Mitcham, DfE, RAA, PAE, and EDA have built co-intelligent capability with Helix Lab.",
-};
+  path: "/case-studies",
+});
 
 const caseStudies = [
   {
@@ -120,6 +122,23 @@ export default function CaseStudiesPage() {
             service organisations in South Australia have built co-intelligent
             capability.
           </p>
+          <div style={{ marginTop: "2.5rem" }}>
+            <Link
+              href="/contact"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Start the Conversation
+            </Link>
+          </div>
         </div>
       </section>
 

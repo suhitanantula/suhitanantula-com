@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Methodology — Helix Lab Frameworks",
   description:
     "The Helix Lab methodology: GAIN, AAA, 4A, 9Q Grid, and LLV frameworks for co-intelligent transformation.",
-};
+  path: "/methodology",
+});
 
 const frameworks = [
   {
@@ -90,6 +92,44 @@ export default function MethodologyPage() {
             theory. They exist because organisations needed better tools for
             thinking clearly about AI, not just using it.
           </p>
+          <div
+            style={{
+              display: "flex",
+              gap: "1rem",
+              flexWrap: "wrap",
+              marginTop: "2.5rem",
+            }}
+          >
+            <Link
+              href="/products#sensemaking-studio"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Sensemaking Studio
+            </Link>
+            <Link
+              href="/journey"
+              style={{
+                display: "inline-block",
+                border: "1px solid var(--border)",
+                color: "var(--legal-gray)",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                borderRadius: "2px",
+              }}
+            >
+              The Journey →
+            </Link>
+          </div>
         </div>
       </section>
 

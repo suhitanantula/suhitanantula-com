@@ -5,6 +5,7 @@ import LapCountdown from "@/components/LapCountdown";
 import LlvChip from "@/components/LlvChip";
 import SubscribeForm from "@/components/SubscribeForm";
 import ShareButton from "@/components/ShareButton";
+import { OG_IMAGE, absoluteUrl, pageMeta } from "@/lib/site";
 
 // Revalidate every 5 minutes so chapter unlocking is near-real-time
 export const revalidate = 300;
@@ -20,41 +21,35 @@ export async function generateMetadata({
   const chapter = lapParam ? all.find((c) => c.lapNumber === lapParam) : null;
 
   if (chapter) {
+    const title = `Lap ${chapter.lapNumber}: ${chapter.title} — The Co-Intelligent Organisation`;
     return {
-      title: `Lap ${chapter.lapNumber}: ${chapter.title} — The Co-Intelligent Organisation`,
-      description: chapter.excerpt,
+      ...pageMeta({
+        title,
+        description: chapter.excerpt,
+        path: `/co-intelligent-org?lap=${chapter.lapNumber}`,
+        absoluteTitle: true,
+      }),
       openGraph: {
         title: `Lap ${chapter.lapNumber}: ${chapter.title}`,
         description: chapter.excerpt,
-        images: [
-          {
-            url: `/og/lap-${chapter.lapNumber}.png`,
-            width: 1200,
-            height: 630,
-            alt: `Lap ${chapter.lapNumber}: ${chapter.title}`,
-          },
-        ],
+        url: absoluteUrl(`/co-intelligent-org?lap=${chapter.lapNumber}`),
+        images: [OG_IMAGE],
       },
       twitter: {
         card: "summary_large_image",
         title: `Lap ${chapter.lapNumber}: ${chapter.title}`,
         description: chapter.excerpt,
-        images: [`/og/lap-${chapter.lapNumber}.png`],
+        images: [OG_IMAGE.url],
       },
     };
   }
 
-  return {
+  return pageMeta({
     title: "The Co-Intelligent Organisation — 21-Lap Grand Prix",
     description:
       "A weekly serialised book by Suhit Anantula. One lap every Monday. 21 laps. The race to build an organisation that thinks with AI.",
-    openGraph: {
-      title: "The Co-Intelligent Organisation",
-      description:
-        "A weekly serialised book by Suhit Anantula. One lap every Monday. 21 laps.",
-      images: [{ url: "/og/lap-1.png", width: 1200, height: 630 }],
-    },
-  };
+    path: "/co-intelligent-org",
+  });
 }
 
 export default async function CoIntelligentOrgPage({
