@@ -7,7 +7,7 @@ interface ShareButtonProps {
 
 export default function ShareButton({ lapNumber, title }: ShareButtonProps) {
   function handleShare() {
-    const url = `https://suhitanantula.com/co-intelligent-org?lap=${lapNumber}`;
+    const url = `https://www.suhitanantula.com/co-intelligent-org?lap=${lapNumber}`;
     const text = `Lap ${lapNumber} of The Co-Intelligent Organisation — "${title}" by Suhit Anantula`;
 
     if (typeof navigator.share === "function") {

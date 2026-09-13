@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import ContactForm from "@/components/ContactForm";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Contact — Work With Me",
+export const metadata: Metadata = pageMeta({
+  title: "Contact",
   description:
     "Start the conversation. Work with Suhit Anantula and Helix Lab to build co-intelligent capability in your organisation.",
-};
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (
@@ -181,6 +184,20 @@ export default function ContactPage() {
                   Working with organisations across Australia
                   and internationally.
                 </p>
+                <p
+                  style={{
+                    color: "var(--text-muted)",
+                    fontSize: "0.875rem",
+                    lineHeight: 1.65,
+                    marginTop: "1rem",
+                  }}
+                >
+                  Or email{" "}
+                  <a href="mailto:hello@suhitanantula.com">
+                    hello@suhitanantula.com
+                  </a>
+                  .
+                </p>
               </div>
             </div>
 
@@ -199,220 +216,7 @@ export default function ContactPage() {
                 Send a message
               </p>
 
-              <form
-                action="mailto:hello@suhitanantula.com"
-                method="GET"
-                style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}
-              >
-                <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "1fr 1fr",
-                    gap: "1rem",
-                  }}
-                >
-                  <div>
-                    <label
-                      htmlFor="name"
-                      style={{
-                        display: "block",
-                        fontSize: "0.8rem",
-                        color: "var(--text-muted)",
-                        marginBottom: "0.5rem",
-                        fontFamily:
-                          "var(--font-mono), IBM Plex Mono, monospace",
-                        letterSpacing: "0.06em",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      style={{
-                        width: "100%",
-                        padding: "0.75rem 1rem",
-                        border: "1px solid var(--border)",
-                        background: "#fff",
-                        fontSize: "0.9rem",
-                        color: "var(--legal-gray)",
-                        outline: "none",
-                        borderRadius: "2px",
-                      }}
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="org"
-                      style={{
-                        display: "block",
-                        fontSize: "0.8rem",
-                        color: "var(--text-muted)",
-                        marginBottom: "0.5rem",
-                        fontFamily:
-                          "var(--font-mono), IBM Plex Mono, monospace",
-                        letterSpacing: "0.06em",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      Organisation
-                    </label>
-                    <input
-                      type="text"
-                      id="org"
-                      name="organisation"
-                      style={{
-                        width: "100%",
-                        padding: "0.75rem 1rem",
-                        border: "1px solid var(--border)",
-                        background: "#fff",
-                        fontSize: "0.9rem",
-                        color: "var(--legal-gray)",
-                        outline: "none",
-                        borderRadius: "2px",
-                      }}
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="email"
-                    style={{
-                      display: "block",
-                      fontSize: "0.8rem",
-                      color: "var(--text-muted)",
-                      marginBottom: "0.5rem",
-                      fontFamily:
-                        "var(--font-mono), IBM Plex Mono, monospace",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem 1rem",
-                      border: "1px solid var(--border)",
-                      background: "#fff",
-                      fontSize: "0.9rem",
-                      color: "var(--legal-gray)",
-                      outline: "none",
-                      borderRadius: "2px",
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="stage"
-                    style={{
-                      display: "block",
-                      fontSize: "0.8rem",
-                      color: "var(--text-muted)",
-                      marginBottom: "0.5rem",
-                      fontFamily:
-                        "var(--font-mono), IBM Plex Mono, monospace",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Where are you on the journey?
-                  </label>
-                  <select
-                    id="stage"
-                    name="stage"
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem 1rem",
-                      border: "1px solid var(--border)",
-                      background: "#fff",
-                      fontSize: "0.9rem",
-                      color: "var(--legal-gray)",
-                      outline: "none",
-                      borderRadius: "2px",
-                    }}
-                  >
-                    <option value="">Select a stage...</option>
-                    <option value="explore">
-                      Explore — just beginning to understand our situation
-                    </option>
-                    <option value="evaluate">
-                      Evaluate — building the strategic case
-                    </option>
-                    <option value="execute">
-                      Execute — ready to build capability
-                    </option>
-                    <option value="elevate">
-                      Elevate — operating at a high level, want to go further
-                    </option>
-                    <option value="unsure">Not sure yet</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    style={{
-                      display: "block",
-                      fontSize: "0.8rem",
-                      color: "var(--text-muted)",
-                      marginBottom: "0.5rem",
-                      fontFamily:
-                        "var(--font-mono), IBM Plex Mono, monospace",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    What are you working on?
-                  </label>
-                  <textarea
-                    id="message"
-                    name="body"
-                    rows={5}
-                    required
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem 1rem",
-                      border: "1px solid var(--border)",
-                      background: "#fff",
-                      fontSize: "0.9rem",
-                      color: "var(--legal-gray)",
-                      outline: "none",
-                      resize: "vertical",
-                      borderRadius: "2px",
-                      fontFamily: "inherit",
-                    }}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  style={{
-                    background: "var(--helix-blue)",
-                    color: "#fff",
-                    border: "none",
-                    padding: "1rem 2rem",
-                    fontSize: "0.9rem",
-                    fontWeight: 500,
-                    cursor: "pointer",
-                    alignSelf: "flex-start",
-                    borderRadius: "2px",
-                    fontFamily: "inherit",
-                  }}
-                >
-                  Send Message
-                </button>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>

@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Products — The Co-Intelligent Grand Prix",
   description:
     "Four stages from starting grid to championship. Explore, Evaluate, Execute, Elevate. Ethnobot workforce intelligence runs underneath all of them.",
-};
+  path: "/products",
+});
 
 type Product = {
   id: string;
@@ -294,6 +296,44 @@ export default function ProductsPage() {
             products, its own destination. Ethnobot workforce intelligence
             runs underneath all of them.
           </p>
+          <div
+            style={{
+              display: "flex",
+              gap: "1rem",
+              flexWrap: "wrap",
+              marginTop: "2.5rem",
+            }}
+          >
+            <Link
+              href="/contact"
+              style={{
+                display: "inline-block",
+                background: "var(--helix-blue)",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                fontWeight: 500,
+                borderRadius: "2px",
+              }}
+            >
+              Take the Position Scan →
+            </Link>
+            <Link
+              href="/contact"
+              style={{
+                display: "inline-block",
+                border: "1px solid var(--border)",
+                color: "var(--legal-gray)",
+                textDecoration: "none",
+                padding: "0.9rem 2rem",
+                fontSize: "0.9rem",
+                borderRadius: "2px",
+              }}
+            >
+              Start a conversation →
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -313,6 +353,7 @@ export default function ProductsPage() {
             margin: "0 auto",
             padding: "0 1.5rem",
             display: "flex",
+            overflowX: "auto",
           }}
         >
           {sections.map((s) => (
